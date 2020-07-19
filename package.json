@@ -1,0 +1,17 @@
+{
+  "name": "bootcamp_nodeendpint",
+  "version": "1.0.0",
+  "description": "bootcamp node end pints",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "PROD_ENV=production node server.js"
+  },
+  "author": "Shrihari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
